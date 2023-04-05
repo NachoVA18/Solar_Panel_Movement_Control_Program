@@ -13,15 +13,15 @@ Clone or download this repository to your local machine.
 Assemble the program using your chosen assembler. For example, using GAS:
 typescript
 Copy code
-$ riscv64-unknown-elf-as -march=rv32i -o solar_panel.o solar_panel.s
+$ riscv64-unknown-elf-as -march=rv32i -o solar_panel.o solar_panel.s$
 Link the program to create an executable file. For example, using GCC:
 ruby
 Copy code
-$ riscv64-unknown-elf-gcc -march=rv32i -o solar_panel solar_panel.o
+$ riscv64-unknown-elf-gcc -march=rv32i -o solar_panel solar_panel.o$
 Run the program in your chosen RISC-V simulator. For example, using Spike:
 ruby
 Copy code
-$ spike pk solar_panel
+$ spike pk solar_panel$
 Follow the instructions in the program to control the movement of the solar panel.
 
 ##License
